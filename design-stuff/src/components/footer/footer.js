@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>Maniacal Maddness &copy</footer>
+    <footer>Maniacal Maddness	&#169; 2019</footer>
   );
 }
 

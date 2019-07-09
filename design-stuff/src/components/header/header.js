@@ -3,7 +3,14 @@ import React from 'react';
 function Header() {
   return (
     <header>
-        Welcome to the Jungle my CSS jungle. It's a mess down here.
+        <nav>
+          <ul>
+            <li>Page 1</li>
+            <li>Page 2</li>
+            <li>Page 3</li>
+            <li>Page 4</li>
+          </ul>
+        </nav>
     </header>
   );
 }
