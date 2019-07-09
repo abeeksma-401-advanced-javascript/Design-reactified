@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import './styles/core/base.scss';
 
 function App() {
   return (
@@ -8,6 +7,12 @@ function App() {
       <header className="App-header">
         just somethign to live here for the time being
       </header>
+      <section>
+        some tidly bits we be here once i knonw what i wantn to do with this
+      </section>
+      <footer>
+        again something to just take up some space
+      </footer>
     </div>
   );
 }
