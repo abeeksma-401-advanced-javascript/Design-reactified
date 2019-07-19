@@ -4,6 +4,11 @@ body {
   border: 1px solid white;
 }
 
+.app {
+  width: 90w;
+  height: 100vh;
+}
+
 .grid-box {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
@@ -17,14 +22,6 @@ header {
   grid-column-end: 6;
 }
 
-.sub-header-box {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 2;
-  grid-column-end: 5;
-
-}
-
 .table-box {
   grid-column-start: 2;
   grid-column-end: 5;
@@ -32,10 +29,10 @@ header {
   grid-row-end: 5;
 }
 
-footer {
-  grid-row-start: 5;
-  grid-row-end: 6;
-  grid-column-start: 1;
-  grid-column-end: 6;
+// footer {
+//   grid-row-start:5;
+//   grid-row-end:6;
+//   grid-column-start:1;
+//   grid-column-end:6;
   
-}
+// }

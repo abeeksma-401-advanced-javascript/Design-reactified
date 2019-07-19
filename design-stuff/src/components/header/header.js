@@ -8,16 +8,9 @@ function Header() {
     <header>
       <nav className="navbar">
         <ul className="mainLinks">
-          <li>page 1</li>
-          <li>page 2</li>
+          <li className="mainLinks">page 1</li>
+          <li className="mainLinks">page 2</li>
         </ul> 
-        <div className="dropdownMain">
-            <ul className='dropdownLinks'>
-              <li>Link 1</li>
-              <li>Link 2</li>
-              <li>Link 3</li>
-            </ul>
-        </div> 
       </nav>
       <h2>Design Playground... ain't she purdy </h2>
     </header>
