@@ -1,5 +1,5 @@
 import React from 'react';
-import('../../styles/core/header.scss');
+import '../../styles/core/header.scss';
 
 //TODO: finish drop down
 function Header() {
@@ -7,12 +7,12 @@ function Header() {
     <>
     <header>
       <nav className="navbar">
-        <ul>
+        <ul className="mainLinks">
           <li>page 1</li>
           <li>page 2</li>
         </ul> 
-        <div class="dropdown">
-            <ul className='dropdown'>
+        <div className="dropdownMain">
+            <ul className='dropdownLinks'>
               <li>Link 1</li>
               <li>Link 2</li>
               <li>Link 3</li>

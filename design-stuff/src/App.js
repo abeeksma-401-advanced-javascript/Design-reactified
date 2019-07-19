@@ -7,12 +7,14 @@ import Table from './components/table/table';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App grid-box">
       <Header />
-      <section>
+      <div className="sub-header-box">
         some tidly bits we be here once i knonw what i wantn to do with this
-      </section>
-      <Table />
+      </div>
+      <div className="table-box">
+          <Table />
+      </div>
       <Footer />
     </div>
   );
