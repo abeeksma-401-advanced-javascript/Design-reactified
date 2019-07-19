@@ -4,10 +4,21 @@ header {
 }
 
 .navbar {
-  display: inline-block;
+ 
   width: 100%;
+  color: green;   
+
 }
 
-.mainlinks {
-  text-decoration: none;
+.navbar li {
+  text-align: center;
+  padding: 8px;
+  width: 7%;   
+  text-decoration: none; 
+  display: inline-block;
+}
+
+header h2 {
+  text-align: center;
+  padding-bottom: 30px;
 }
